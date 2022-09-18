@@ -4,7 +4,7 @@
  */
 
  body {
-     background-image: linear-gradient(to bottom right, rgb(207, 232, 240), rgb(142, 154, 158));
+     background-image: linear-gradient(to bottom right, rgb(238, 215, 171), rgb(114, 154, 168));
  }
 
  .site-crown {
@@ -13,13 +13,13 @@
      align-items: center;
  }
 
- .logo-photo img {
-     width: 150px;
-     height: 150px;
+ .logo-photo {
+     width: 140px;
+     height: 93px;
  }
 
  .site-crown .iconbar-header img {
-     width: 30px;
+     width: 25px;
  }
 
  .profile-icon {
@@ -28,7 +28,7 @@
 
  div.search-header {
      flex-grow: 1;
-     margin-left: 100px;
+     margin-left: 80px;
  }
 
  .search-header input {
@@ -62,9 +62,13 @@
  .nav-bar {
      display: flex;
      flex-direction: row;
-     justify-content: space-around;
-     margin-top: 80px;
-     margin-bottom: 50px;
+     align-content: flex-start;
+     margin-top: 40px;
+
+ }
+
+ .nav-bar>li {
+     margin-right: 50px;
  }
 
  .text-hero {
@@ -87,8 +91,8 @@
  }
 
  .hero {
-     margin-top: 50px;
-     margin-bottom: 50px;
+
+     margin-bottom: 30px;
 
  }
 
@@ -111,7 +115,7 @@
      justify-content: space-evenly;
      width: 100%;
      height: auto;
-     margin-bottom: 50px;
+
  }
 
  .spots img {
@@ -127,7 +131,7 @@
  h2 {
      display: grid;
      justify-content: center;
-     margin-bottom: 150px;
+     margin-bottom: 50px;
      font-size: 50px;
 
  }
@@ -143,22 +147,26 @@
      display: grid;
      grid-template-columns: auto auto auto auto;
      justify-content: space-between;
-     margin-bottom: 150px;
+
  }
 
  .product-box-2 {
      display: grid;
      grid-template-columns: auto auto auto auto;
      justify-content: space-between;
-     margin-bottom: 150px;
-     margin-top: 150px;
+     margin-top: 40px;
  }
 
  .service-bar>ul {
      display: flex;
      flex-direction: row;
      justify-content: space-evenly;
-     margin-bottom: 150px;
+     margin-bottom: 80px;
+
+ }
+
+ .service-bar i {
+     margin-right: 15px;
  }
 
 
@@ -170,11 +178,11 @@
  .footer-menu {
      display: flex;
      flex-direction: row;
-     justify-content: space-evenly;
+     justify-content: flex-start;
  }
 
  .copyright {
-     padding: 170px;
+     padding: 50px;
      display: flex;
      justify-content: center;
  }
@@ -193,6 +201,13 @@
 
      div.search-header {
          flex-grow: 1;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .iconbar-header {
          align-items: center;
          justify-content: center;
      }
@@ -200,10 +215,10 @@
      .nav-bar {
          display: flex;
          flex-direction: column;
-         align-items: center;
-         justify-content: center;
-         margin-top: 30px;
-         margin-bottom: 30px;
+         align-items: flex-start;
+         justify-content: flex-start;
+         margin-top: 15px;
+         margin-bottom: 15px;
      }
 
      .photo-hero {
@@ -222,7 +237,6 @@
      }
 
      .text-hero {
-
          font-size: smaller;
      }
 
@@ -236,6 +250,9 @@
          height: 20px;
      }
 
+     .popular {
+         padding: 10px;
+     }
 
      h2 {
          display: grid;
@@ -255,13 +272,14 @@
      }
 
      .spots {
-         display: flex;
+         display: none;
+         /*  display: flex;
          flex-direction: column;
          align-items: center;
          justify-content: space-evenly;
          width: 100%;
          height: auto;
-         margin-bottom: 10px;
+         margin-bottom: 10px; */
      }
 
 
@@ -275,28 +293,50 @@
          margin-bottom: 10px;
      }
 
+     .popular-products-2 {
+         display: none;
+     }
+
+     .popular-products-3 {
+         display: none;
+     }
+
+     .popular-products-4 {
+         display: none;
+     }
+
      .product-box-2 {
-         display: grid;
+         display: none;
+         /* display: grid;
          grid-template-columns: auto;
          grid-template-rows: auto auto auto auto;
          justify-content: center;
          gap: 2px;
          margin-bottom: 20px;
-         margin-top: 20px;
+         margin-top: 20px; */
      }
 
      .service-bar>ul {
          display: flex;
          flex-direction: column;
-         align-items: center;
-         justify-content: center;
-         margin-bottom: 150px;
+         align-items: flex-start;
+         justify-content: flex-start;
+         margin-bottom: 10px;
+     }
+
+     ul>p {
+         margin: 10px;
+
+     }
+
+     ul>li {
+         margin-bottom: 10px;
      }
 
      .footer-menu {
          display: flex;
          flex-direction: column;
-         align-items: center;
-         justify-content: space-evenly;
+         align-items: flex-start;
+         justify-content: flex-start;
      }
  }

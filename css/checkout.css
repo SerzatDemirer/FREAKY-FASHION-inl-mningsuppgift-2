@@ -1,0 +1,61 @@
+* {
+    padding: 8px;
+}
+
+body {
+    padding: 20px;
+}
+
+.kassan {
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+}
+
+.main-box-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-box-3>fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-box-4>fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart {
+    border: 1px solid black;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 2px solid #4f4c4c;
+    text-align: left;
+    padding: 8px;
+}
+
+.street {
+    display: flex;
+    flex-direction: column;
+}
+
+.postnumber {
+    display: flex;
+    flex-direction: column;
+}
+
+.city {
+    display: flex;
+    flex-direction: column;
+
+}
