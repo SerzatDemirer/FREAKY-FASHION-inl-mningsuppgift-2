@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/checkout.css">
-    <title>Document</title>
+    <link rel="icon" type="image/shutterstock"
+        href="https://image.shutterstock.com/image-vector/tshirt-icon-600w-448726378.jpg">
+    <title>KASSA-FREAKY-FASHION</title>
 </head>
 
 <body>
@@ -15,75 +17,99 @@
             <h2>Kassan</h2>
         </div>
 
-        <section class="main-box-1">
+        <div class="main-box-1">
 
             <table class="cart">
-                <tr>
+                <tr class="row-1">
                     <th><strong>Produkt</strong></th>
                     <th><strong>Pris</strong></th>
                     <th><strong>Antal</strong></th>
                     <th><strong>Bellop</strong></th>
                 </tr>
-                <tr>
+                <tr class="row-2">
                     <td>Svart T-Shirt</td>
                     <td>199</td>
                     <td>1</td>
                     <td>199kr</td>
 
                 </tr>
-                <tr>
+                <tr class="row-3">
                     <td>Rosa T-Shirt</td>
                     <td>149</td>
                     <td>2</td>
                     <td>298kr</td>
                 </tr>
+                <tr class="row-4">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <p>Totalt:497kr</p>
+                    </td>
+                </tr>
             </table>
-            <p>Totalt:497kr</p>
-        </section>
-        <section class="main-box-2">
+
+        </div>
+        <div class="main-box-2">
             <form action="/action_page.php">
-                <label for="Firs Name">För Namn</label>
-                <input type="text" id="fname" name="firstname">
-
-                <label for="Last Name">Efter Namn</label>
-                <input type="text" id="lname" name="lastname">
-
-                <label for="e-mail">E Mail</label>
-                <input type="email" id="e-mail" name="email">
-
+                <div id="name">
+                    <div class="input1">
+                        <label for="firstname">För Namn</label>
+                        <input type="text" id="firstname" name="firstname">
+                    </div>
+                    <div class="input2">
+                        <label for="lastname">Efter Namn</label>
+                        <input type="text" id="lastname" name="lastname">
+                    </div>
+                </div>
+                <div class="input3">
+                    <label for="e-mail">E Mail</label>
+                    <input type="email" id="e-mail" name="email">
+                </div>
             </form>
-            <section class="main-box-3">
+        </div>
+        <div class="main-box-3">
+            <form action="adres">
                 <fieldset>
                     <legend>Adres</legend>
                     <div class="street">
-                        <label for="Street">Gata</label>
-                        <input type="text" id="street">
+                        <label for="street">Gata</label>
+                        <input type="text" id="street" maxlength="50">
                     </div>
                     <div class="postnumber">
-                        <label for="Postnumber">Postnummer</label>
+                        <label for="postnumber">Postnummer</label>
                         <input type="number" id="postnumber">
                     </div>
                     <div class="city">
-                        <label for="City">Stad</label>
-                        <input type="text" id="city">
+                        <label for="city">Stad</label>
+                        <input type="text" id="city" maxlength="60">
                     </div>
                 </fieldset>
-            </section>
-            <section class="main-box-4">
+            </form>
+        </div>
+        <div class="main-box-4">
+            <form action="payement">
                 <fieldset>
                     <legend>Betalningsalternativ</legend>
-                    <input type="radio" id="html" name="fav_language" value="HTML">
-                      <label for="html">Klarna</label>
-                      <input type="radio" id="css" name="fav_language" value="CSS">
-                      <label for="css">Kreditkotr</label>
-                      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                      <label for="javascript">Swish</label>
-
+                    <div>
+                        <input type="radio" name="payement" id="klarna">
+                        <label for="klarna">Klarna</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="payement" id="kreditkort">
+                        <label for="kreditkort">Kreditkort</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="payement" id="swish">
+                        <label for="swish">Swish</label>
+                    </div>
                 </fieldset>
-            </section>
+            </form>
+        </div>
+        <div class="main-box-5">
+            <input type="submit" name="köpnu" id="buynow" onclick="" value="KÖP NU">
+        </div>
 
-
-        </section>
     </main>
 </body>
 
