@@ -13,103 +13,105 @@
 
 <body>
     <main>
-        <div class="kassan">
-            <h2>Kassan</h2>
-        </div>
+        <form action="/action_page.php" method="get" id="form1">
+            <div class="kassan">
+                <h2>Kassan</h2>
+            </div>
 
-        <div class="main-box-1">
+            <div class="main-box-1">
 
-            <table class="cart">
-                <tr class="row-1">
-                    <th><strong>Produkt</strong></th>
-                    <th><strong>Pris</strong></th>
-                    <th><strong>Antal</strong></th>
-                    <th><strong>Bellop</strong></th>
-                </tr>
-                <tr class="row-2">
-                    <td>Svart T-Shirt</td>
-                    <td>199</td>
-                    <td>1</td>
-                    <td>199kr</td>
+                <table class="cart">
+                    <tr class="row-1">
+                        <th><strong>Produkt</strong></th>
+                        <th><strong>Pris</strong></th>
+                        <th><strong>Antal</strong></th>
+                        <th><strong>Bellop</strong></th>
+                    </tr>
+                    <tr class="row-2">
+                        <td>Svart T-Shirt</td>
+                        <td>199</td>
+                        <td>1</td>
+                        <td>199kr</td>
 
-                </tr>
-                <tr class="row-3">
-                    <td>Rosa T-Shirt</td>
-                    <td>149</td>
-                    <td>2</td>
-                    <td>298kr</td>
-                </tr>
-                <tr class="row-4">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>
-                        <p>Totalt:497kr</p>
-                    </td>
-                </tr>
-            </table>
+                    </tr>
+                    <tr class="row-3">
+                        <td>Rosa T-Shirt</td>
+                        <td>149</td>
+                        <td>2</td>
+                        <td>298kr</td>
+                    </tr>
+                    <tr class="row-4">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <p>Totalt:497kr</p>
+                        </td>
+                    </tr>
+                </table>
 
-        </div>
-        <div class="main-box-2">
-            <form action="/action_page.php">
-                <div id="name">
-                    <div class="input1">
-                        <label for="firstname">För Namn</label>
-                        <input type="text" id="firstname" name="firstname">
-                    </div>
-                    <div class="input2">
-                        <label for="lastname">Efter Namn</label>
-                        <input type="text" id="lastname" name="lastname">
-                    </div>
-                </div>
-                <div class="input3">
-                    <label for="e-mail">E Mail</label>
-                    <input type="email" id="e-mail" name="email">
-                </div>
-            </form>
-        </div>
-        <div class="main-box-3">
-            <form action="adres">
-                <fieldset>
-                    <legend>Adres</legend>
-                    <div class="street">
-                        <label for="street">Gata</label>
-                        <input type="text" id="street" maxlength="50">
-                    </div>
-                    <div class="postnumber">
-                        <label for="postnumber">Postnummer</label>
-                        <input type="number" id="postnumber">
-                    </div>
-                    <div class="city">
-                        <label for="city">Stad</label>
-                        <input type="text" id="city" maxlength="60">
-                    </div>
-                </fieldset>
-            </form>
-        </div>
-        <div class="main-box-4">
-            <form action="payement">
-                <fieldset>
-                    <legend>Betalningsalternativ</legend>
-                    <div>
-                        <input type="radio" name="payement" id="klarna">
-                        <label for="klarna">Klarna</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="payement" id="kreditkort">
-                        <label for="kreditkort">Kreditkort</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="payement" id="swish">
-                        <label for="swish">Swish</label>
-                    </div>
-                </fieldset>
-            </form>
-        </div>
-        <div class="main-box-5">
-            <input type="submit" name="köpnu" id="buynow" onclick="" value="KÖP NU">
-        </div>
+            </div>
 
+            <div class="main-box-2">
+                <form action="/action_page.php">
+                    <div id="name">
+                        <div class="input1">
+                            <label for="firstname">För Namn</label>
+                            <input type="text" id="firstname" name="firstname">
+                        </div>
+                        <div class="input2">
+                            <label for="lastname">Efter Namn</label>
+                            <input type="text" id="lastname" name="lastname">
+                        </div>
+                    </div>
+                    <div class="input3">
+                        <label for="e-mail">E Mail</label>
+                        <input type="email" id="e-mail" name="email">
+                    </div>
+                </form>
+            </div>
+            <div class="main-box-3">
+                <form action="adres">
+                    <fieldset>
+                        <legend>Adres</legend>
+                        <div class="street">
+                            <label for="street">Gata</label>
+                            <input type="text" id="street" maxlength="50">
+                        </div>
+                        <div class="postnumber">
+                            <label for="postnumber">Postnummer</label>
+                            <input type="number" id="postnumber">
+                        </div>
+                        <div class="city">
+                            <label for="city">Stad</label>
+                            <input type="text" id="city" maxlength="60">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="main-box-4">
+                <form action="payement">
+                    <fieldset>
+                        <legend>Betalningsalternativ</legend>
+                        <div>
+                            <input type="radio" name="payement" id="klarna">
+                            <label for="klarna">Klarna</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="payement" id="kreditkort">
+                            <label for="kreditkort">Kreditkort</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="payement" id="swish">
+                            <label for="swish">Swish</label>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="main-box-5">
+                <input type="submit" name="köpnu" form="form1" value="KÖP NU">
+            </div>
+        </form>
     </main>
 </body>
 
