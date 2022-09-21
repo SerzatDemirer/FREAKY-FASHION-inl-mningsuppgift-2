@@ -4,6 +4,7 @@
 
 
 body {
+
     background-image: linear-gradient(to bottom right, rgb(238, 215, 171), rgb(91, 154, 177));
 }
 
@@ -72,20 +73,13 @@ th {
     display: flex;
 }
 
-.input1 {
-    display: flex;
-    flex-direction: column;
-}
-
-.input2 {
-    display: flex;
-    flex-direction: column;
-}
-
+.input1,
+.input2,
 .input3 {
     display: flex;
     flex-direction: column;
 }
+
 
 #firstname {
     width: 250px;

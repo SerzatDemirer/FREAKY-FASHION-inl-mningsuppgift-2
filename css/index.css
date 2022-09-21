@@ -142,6 +142,27 @@
      height: 200px;
  }
 
+ .spots>.spots-picture-1>h3 {
+     color: rgb(131, 127, 127);
+     position: relative;
+     text-align: center;
+     top: 130px;
+ }
+
+ .spots>.spots-picture-2>h3 {
+     color: rgb(131, 127, 127);
+     position: relative;
+     text-align: center;
+     top: 130px;
+ }
+
+ .spots>.spots-picture-3>h3 {
+     color: rgb(131, 127, 127);
+     position: relative;
+     text-align: center;
+     top: 130px;
+ }
+
  .popular {
      padding: 50px;
 
