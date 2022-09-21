@@ -45,7 +45,7 @@
 
  .search-header form {
      width: 250px;
-     border: 2px solid svart;
+     border: 2px solid black;
      padding: 3px;
      border-radius: 16px;
      background-color: white;
@@ -105,8 +105,6 @@
      margin-top: 80px;
      width: 70px;
      height: 20px;
-
-
  }
 
  .hero {
@@ -208,8 +206,6 @@
 
  }
 
-
-
  .product-box-2 {
      display: grid;
      grid-template-columns: auto auto auto auto;
@@ -222,7 +218,6 @@
      flex-direction: row;
      justify-content: space-evenly;
      margin-bottom: 80px;
-
  }
 
  .service-bar i {
@@ -260,7 +255,6 @@
          align-items: center;
      }
 
-
      .search-header {
          flex-grow: 1;
          margin-top: 10px;
@@ -268,7 +262,7 @@
          margin-right: 60px;
          display: flex;
          align-items: center;
-         justify-content: ;
+
      }
 
      .site-crown form {
@@ -279,7 +273,6 @@
          width: 10px;
          display: flex;
          align-items: center;
-         justify-content: ;
      }
 
      .nav-bar {
@@ -384,7 +377,6 @@
          gap: 2px;
          margin-bottom: 20px;
          margin-top: 20px;
-         */
      }
 
      .service-bar>ul {
