@@ -3,6 +3,11 @@
 }
 
 
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
 body {
 
     background-image: linear-gradient(to bottom right, rgb(238, 215, 171), rgb(91, 154, 177));
@@ -128,6 +133,7 @@ th {
 }
 
 .main-box-5 button {
+    text-transform: uppercase;
     padding: 10px 50px 10px 50px;
     background-color: darkcyan;
     box-shadow: 2px 2px 2px 2px;
